@@ -58,18 +58,15 @@ namespace itertools {
                 }
             };
 
-            // ()++
-            // increment and then return the value.
-            // returns a reference of the class obj.
+
+            //first increment then return value. ++i
             iterator& operator++(){
                 ++begin_iter;
                 if(begin_iter != end_iter)
                     sum = function(sum, *begin_iter);
                 return *this;
             };
-            // ++()
-            // return a copy of the current state of this class object and increment the actual
-            // class object. returns a copy of iterator before incrementing.
+            //return value before icrement. i++
             iterator operator++(int) {iterator temp_it = *this; ++(*this); return temp_it;    };
             bool operator==(const iterator& other )const{return begin_iter == other.begin_iter;}
             bool operator!=(const iterator& other )const{return begin_iter != other.begin_iter;}
