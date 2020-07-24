@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dor/Desktop/task5_iterTools/Demo.cpp
+iostream
+-
+vector
+-
+range.hpp
+/home/dor/Desktop/task5_iterTools/range.hpp
+accumulate.hpp
+/home/dor/Desktop/task5_iterTools/accumulate.hpp
+filterfalse.hpp
+/home/dor/Desktop/task5_iterTools/filterfalse.hpp
+compress.hpp
+/home/dor/Desktop/task5_iterTools/compress.hpp
+
+/home/dor/Desktop/task5_iterTools/accumulate.hpp
+
+/home/dor/Desktop/task5_iterTools/compress.hpp
+
+/home/dor/Desktop/task5_iterTools/filterfalse.hpp
+iostream
+-
+vector
+-
+
+/home/dor/Desktop/task5_iterTools/range.hpp
+iostream
+-
+
